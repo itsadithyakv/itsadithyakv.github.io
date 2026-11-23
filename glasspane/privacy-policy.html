@@ -39,7 +39,7 @@
     </svg>
     <h1>Glasspane privacy policy</h1>
   </header>
-  <p class="soft">Glasspane: Always on Top &amp; Pin Windows, by PaperKite. Last updated 22 November 2026.</p>
+  <p class="soft">Glasspane: Always on Top &amp; Pin Windows, by PaperKite. Last updated 23 November 2026 (version 1.2.0).</p>
 
   <div class="card"><strong>The Glasspane app doesn't collect any data. It never sends anything about you or your windows.</strong>
     There's no Glasspane account, no analytics or tracking and no ads. The app only connects to the Microsoft Store, to
@@ -60,15 +60,21 @@
       positions, app names and program locations, which window is in front, and whether something is full screen. It
       also reads how your monitors are arranged.</li>
     <li><strong>The screen behind its glass:</strong> to draw its glass, Glasspane reads the area of the screen behind and
-      just around its bubbles and hints, and refreshes it while they show. That picture stays in memory and is never
-      saved.</li>
-    <li><strong>Mini windows, bubble previews and dark mode</strong> show the picture of a window on your own screen.
-      Dark mode reads that picture to make it dark. It is never saved.</li>
-    <li><strong>Sound and media:</strong> to mute apps and to mark the bubble that's playing, Glasspane reads which apps
-      are playing sound and can read the title of what's playing from Windows' media controls. It never records or
-      listens to the sound, and doesn't save those titles.</li>
-    <li><strong>The pointer:</strong> Glasspane reads where the pointer is, to show its buttons and previews, to fade
-      bubbles and to pass your clicks and scrolling from a mini window to the real window. It keeps no history of it.</li>
+      just around its bubbles, messages and change notes, and refreshes it while they show. That picture stays in memory
+      and is never saved.</li>
+    <li><strong>Mini windows, bubble cards, mirrors to another screen and dark mode</strong> show the picture of a window
+      on your own screens. For mini windows, bubble cards and mirrors, Windows draws that picture and Glasspane doesn't
+      read it. Dark mode reads it to make it dark. It is never saved.</li>
+    <li><strong>"Tell me when it changes"</strong> (Glasspane Pro), only for a window you choose: Windows gives Glasspane
+      the picture of that window, and Glasspane keeps only a small copy of the part you picked, about every 0.7 seconds,
+      to compare and notice a change. The copies stay in memory while it watches, the latest one is shown in the note it gives you, and none is ever saved.</li>
+    <li><strong>Sound and media:</strong> to mute apps, change an app's volume and mark the bubble that's playing,
+      Glasspane reads which apps are playing sound and their volume. From Windows' media controls it reads the title and
+      artist of what's playing in a window, to show them on that window's bubble card, and presses play, pause or skip
+      for that window only when you ask. It never records or listens to the sound, and doesn't save those titles.</li>
+    <li><strong>The pointer:</strong> Glasspane reads where the pointer is, to show its buttons and bubble cards, to fade
+      bubbles, to show a dot where it is on a mirror and
+      to pass your clicks and scrolling from a mini window to the real window. It keeps no history of it.</li>
     <li><strong>Optional mouse shortcuts</strong> (Ctrl + scroll, Shift + double-click and drag anywhere): while any of
       them is on, Glasspane watches mouse clicks, movement and scrolling to recognise them. Nothing is recorded.</li>
     <li><strong>Keys:</strong> keyboard shortcuts are registered with Windows, which tells Glasspane only when one of them
@@ -83,7 +89,8 @@
     <li>saved layouts, app rules and where windows were for each monitor setup, which can include window titles, app
       names and program locations;</li>
     <li>a safety record of the changes it made to windows, so it can always put them back, even after a crash, which
-      includes those windows' titles and app names, and a list of apps it muted;</li>
+      includes those windows' titles and app names, a list of apps it muted, and the volume of each app it changed (with
+      that app's program location), so it can be put back;</li>
     <li>a small local log of events and errors, which can include app names, layout names and window titles.</li>
   </ul>
   <p>Uninstalling Glasspane removes them.</p>
